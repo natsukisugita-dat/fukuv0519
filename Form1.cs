@@ -17,5 +17,19 @@ namespace fukuv0519
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("杉田夏葵");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            button3.Top = 5;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Visible = false;
+        }
     }
 }
