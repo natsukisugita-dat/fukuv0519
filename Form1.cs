@@ -31,5 +31,10 @@ namespace fukuv0519
         {
             button2.Visible = false;
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.BackColor = Color.Red;
+        }
     }
 }
