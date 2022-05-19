@@ -19,7 +19,7 @@ namespace fukuv0519
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("杉田夏葵");
+            button1.Text="杉田夏葵";
         }
 
         private void button3_Click(object sender, EventArgs e)
